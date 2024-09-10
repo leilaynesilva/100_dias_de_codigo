@@ -14,3 +14,4 @@ if num < 0:
     print(f"O fatorial de {num} não existe")
 else:
     print(f"O fatorial de {num} é {fatorial(num)}")
+
