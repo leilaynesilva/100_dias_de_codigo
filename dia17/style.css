@@ -1,61 +1,45 @@
-/* Variáveis de Cores */
-:root {
-    --main-bg-color: #fce4ec;
-    --container-bg-color: #fff0f6;
-    --primary-color: #ad1457;
-    --secondary-color: #880e4f;
-    --button-bg-color: #ec407a;
-    --button-hover-bg-color: #d81b60;
-}
-
-/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Corpo */
 body {
     font-family: 'Courier New', monospace;
-    background-color: var(--main-bg-color);
+    background-color: #E1F0E1;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
 }
 
-/* Container */
 .container {
     text-align: center;
-    background-color: var(--container-bg-color);
+    background-color: #D9ECD9;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     width: 350px;
 }
 
-/* Logo */
 .logo {
     font-size: 26px;
-    color: var(--primary-color);
+    color: #8FBC8F;
     margin-bottom: 25px;
 }
 
-/* Container de Input */
 .container-input {
     margin-bottom: 25px;
-    color: var(--secondary-color);
+    color: #6CA96C;
 }
 
-/* Slider */
 #slider {
     width: 100%;
     margin-top: 10px;
     appearance: none;
     height: 8px;
     border-radius: 5px;
-    background: #f8bbd0;
+    background: #C4E1C5;
     outline: none;
 }
 
@@ -63,14 +47,13 @@ body {
     appearance: none;
     width: 20px;
     height: 20px;
-    background: #880e4f;
+    background: #6CA96C;
     border-radius: 50%;
     cursor: pointer;
 }
 
-/* Botões */
 button {
-    background-color: var(--button-bg-color);
+    background-color: #A2D6A2;
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -81,36 +64,30 @@ button {
 }
 
 button:hover {
-    background-color: var(--button-hover-bg-color);
+    background-color: #86C586;
 }
 
-button:focus {
-    outline: 2px solid var(--secondary-color);
-}
-
-/* Container de Senha */
 .container-senha {
     margin-top: 25px;
 }
 
 .senha {
     display: block;
-    background-color: rgba(136, 14, 79, 0.1);
+    background-color: rgba(108, 169, 108, 0.1);
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 15px;
     word-break: break-all;
-    color: var(--primary-color);
+    color: #8FBC8F;
     font-size: 16px;
     font-weight: bold;
     font-family: 'Courier New', monospace;
 }
 
-/* Botão de Copiar Senha */
 #copiar-senha {
-    background-color: var(--primary-color);
+    background-color: #8FBC8F;
 }
 
 #copiar-senha:hover {
-    background-color: var(--secondary-color);
+    background-color: #6CA96C;
 }
